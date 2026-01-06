@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ["php83", "nodejs_20"]
+
+[phases.build]
+cmds = [
+  "npm install",
+  "npm run build",
+  "php artisan optimize"
+]
+
+[start]
+cmd = "php -S 0.0.0.0:$PORT -t public"
