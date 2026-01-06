@@ -31,7 +31,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         // self::registerIcons();
-        if (app()->environment('local')) {
+        if (app()->environment('production')) {
             URL::forceScheme('https');
         }
         // --- 1. LOGIKA OBSERVER (Agar stok update otomatis) ---
