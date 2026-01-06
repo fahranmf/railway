@@ -1,0 +1,5 @@
+[build]
+builder = "railpack"
+
+[build.env]
+PHP_VERSION = "8.3"
