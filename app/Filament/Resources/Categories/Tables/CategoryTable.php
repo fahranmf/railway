@@ -4,7 +4,7 @@ namespace App\Filament\Resources\Categories\Tables;
 
 use Filament\Tables;
 
-class CategoriesTable
+class CategoryTable
 {
     public static function columns(): array
     {

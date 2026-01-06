@@ -4,7 +4,7 @@ namespace App\Filament\Resources\Users\Tables;
 
 use Filament\Tables;
 
-class UsersTable
+class UserTable
 {
     public static function columns(): array
     {
