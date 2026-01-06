@@ -2,7 +2,7 @@
 namespace App\Filament\Resources\Units\Tables;
 use Filament\Tables;
 
-class UnitTable
+class UnitsTable
 {
     public static function columns(): array
     {

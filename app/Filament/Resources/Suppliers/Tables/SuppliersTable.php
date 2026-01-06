@@ -2,7 +2,7 @@
 namespace App\Filament\Resources\Suppliers\Tables;
 use Filament\Tables;
 
-class SupplierTable
+class SuppliersTable
 {
     public static function columns(): array
     {

@@ -7,7 +7,7 @@ use Filament\Tables;
 use Filament\Actions\Action; // Import Action untuk tombol custom
 use Filament\Actions\EditAction;
 
-class TransactionTable
+class TransactionsTable
 {
     public static function columns(): array
     {
