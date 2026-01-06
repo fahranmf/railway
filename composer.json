@@ -5,6 +5,7 @@
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    
     "require": {
         "php": "^8.2",
         "filament/filament": "^4.2",
@@ -80,6 +81,9 @@
         }
     },
     "config": {
+         "platform": {
+            "php": "8.3.0"
+        },
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
